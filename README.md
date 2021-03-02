@@ -33,7 +33,8 @@
         - 연속형 변수, 이산형 변수 모두 계산 가능
         - CG : 관련성 점수(사용자가 추천된 각 아이템을 얼마나 선호하는지)를 합한 값(동일한 비중으로)
         - DCG : 랭킹에 따라 비중을 discount해서 관련성을 계산, 하위권에 penalty 부여
-        - NDCG : DGG / IDCG(Ideal DCG : 선택된 결과로 가질 수 있는 가장 큰 DCG 값 - rel가 큰 순서대로 재배열한 것에 대해서 DCG를 계산)
+        - NDCG : DGG / IDCG
+        (Ideal DCG : 선택된 결과로 가질 수 있는 가장 큰 DCG 값 - rel가 큰 순서대로 재배열한 것에 대해서 DCG를 계산)
         ex) TV나 영화 프로그램 K개를 랭킹순으로 추천
 
     ✔ Precision at K
